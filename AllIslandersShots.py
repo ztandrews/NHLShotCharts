@@ -24,7 +24,7 @@ yc=[]
 #seasons = ["20192020","20202021","20212022"]
 seasons = ["20212022"]
 for season in seasons:
-    nyi_schedule = requests.get("https://statsapi.web.nhl.com/api/v1/schedule?season="+season+"&teamId=3&gameType=R")
+    nyi_schedule = requests.get("https://statsapi.web.nhl.com/api/v1/schedule?season="+season+"&teamId=2&gameType=R")
     schedule = nyi_schedule.json()
     schedule = schedule["dates"]
 
@@ -57,7 +57,7 @@ for season in seasons:
         plays = event["plays"]
         all_plays = plays["allPlays"]
 
-        if home_team == "NYR":
+        if home_team == "NYI":
             team_to_chart = home_team
         else:
             team_to_chart = away_team
@@ -112,5 +112,5 @@ rink = NHLRink()
 ax = rink.draw(display_range="ozone")
 hb = ax.hexbin(xc, yc, gridsize=25, cmap='Reds')
 cb = fig.colorbar(hb, ax=ax, label='counts')
-plt.title("NYR All Shot Attempts: 2021-2022")
+plt.title("NYI All Shot Attempts: 2021-2022")
 plt.show()
