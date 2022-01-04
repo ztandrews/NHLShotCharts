@@ -21,3 +21,9 @@ This shows all shots for a team in a year in the form of a hex heat map.
 ![image](https://user-images.githubusercontent.com/68918006/147365400-97d4d44b-1c65-416d-91c1-e93eb1de4eac.png)
 
 This one isn't done yet because I need to find a way to compare a teams shots to league average at each bin location
+
+
+### AllIslandersShotsSmooth.py
+![image](https://user-images.githubusercontent.com/68918006/148008701-94ca0683-bb5d-4aa6-a555-245257557748.png)
+
+Same as AllIslandersShots.py but this time it's a smooth heatmap. I still want to add a way to compare shot locations to league average
