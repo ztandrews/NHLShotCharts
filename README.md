@@ -27,3 +27,9 @@ This one isn't done yet because I need to find a way to compare a teams shots to
 ![image](https://user-images.githubusercontent.com/68918006/148008701-94ca0683-bb5d-4aa6-a555-245257557748.png)
 
 Same as AllIslandersShots.py but this time it's a smooth heatmap. I still want to add a way to compare shot locations to league average
+
+
+### NHLPlayerShotChart.py
+![image](https://user-images.githubusercontent.com/68918006/149387226-72c0efc3-bb0c-4077-9057-f144f38646de.png)
+
+A shot chart for a single NHL player
